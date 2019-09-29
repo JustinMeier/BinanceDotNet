@@ -24,12 +24,12 @@ namespace BinanceExchange.API.Websockets
         /// <summary> 
         /// Base WebSocket URI for Binance API
         /// </summary>
-        protected string BaseWebsocketUri = "wss://stream.binance.com:9443/ws";
+        protected string BaseWebsocketUri = "wss://stream.binance.us:9443/ws";
 
         /// <summary>
         /// Combined WebSocket URI for Binance API
         /// </summary>
-        protected string CombinedWebsocketUri = "wss://stream.binance.com:9443/stream?streams";
+        protected string CombinedWebsocketUri = "wss://stream.binance.us:9443/stream?streams";
 
         /// <summary>
         /// Used for deletion on the fly
