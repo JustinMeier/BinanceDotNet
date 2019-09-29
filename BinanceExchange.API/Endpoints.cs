@@ -28,7 +28,7 @@ namespace BinanceExchange.API
         /// <summary>
         /// Defaults to API binance domain (https)
         /// </summary>
-        internal static string APIBaseUrl = "https://api.binance.com/api";
+        internal static string APIBaseUrl = "https://api.binance.us/api";
 
         /// <summary>
         /// Defaults to WAPI binance domain (https)
